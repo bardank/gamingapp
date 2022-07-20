@@ -1,5 +1,6 @@
 # Gaming App
 
+[Live demo link](https://62d84e5c5303071b452d7641--thriving-torte-23e01e.netlify.app/)
 
 ### Designs
 - [Design](docs/design.pdf)
