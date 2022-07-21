@@ -23,12 +23,12 @@ const Favourite = ({ id, ...props }) => {
     <div id={id} className="py-2">
       <h2 className="font-bold text-xl py-4">Favourite Games</h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 pb-4">
+      <div className="grid md:grid-cols-4 gap-4 pb-4">
         {images.map((item, i) => (
           <CardItem key={i} item={item} />
         ))}
       </div>
-      <div className="subscribe rounded mt-12 mb-4 h-36 w-full flex justify-center items-center">
+      <div className="subscribe rounded mt-12 mb-4 h-44 w-full flex justify-center items-center">
         <button
           className="py-3 px-4 opacity-50 tracking-wider font-semibold text-black"
           style={{ background: "red" }}
@@ -51,7 +51,7 @@ const CardItem = ({ item, ...props }) => {
     >
       <img
         src={item.img}
-        className="h-52 w-full object-cover"
+        className="h-56 w-full object-cover"
         alt={item.title}
       />
       <div className="">

@@ -6,7 +6,7 @@ const About = ({ id, ...props }) => {
     <div id={id} className="pt-2  md:pb-12">
       <h2 className="font-bold text-xl py-4">About The team</h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 pb-4">
+      <div className="grid md:grid-cols-4 gap-4 pb-4">
         {team.map((item, i) => (
           <CardItem key={i} num={item} />
         ))}
